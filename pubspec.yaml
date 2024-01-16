@@ -1,0 +1,21 @@
+name: flutter_lints_test
+description: Testing building some class custom lint rules
+version: 0.0.1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  analyzer: ^5.13.0
+  analyzer_plugin: ^0.11.0
+  custom_lint_builder: ^0.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
